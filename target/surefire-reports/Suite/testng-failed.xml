@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="actionListExample.Dragdroptest2">
+        <methods>
+          <include name="launchsite"/>
+          <include name="closesite"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- actionListExample.Dragdroptest2 -->
+      <class name="iRCTCExample.IRCTCtest">
+        <methods>
+          <include name="logincheck"/>
+          <include name="launchsite"/>
+          <include name="closesite"/>
+        </methods>
+      </class> <!-- iRCTCExample.IRCTCtest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
